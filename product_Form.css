@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box
+  }
+  
+  .upload-file{
+  	border:2px dashed #D3D3D3;
+  	height: 150px;
+  	width: 457px;
+  	border-radius: 10px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;
+  }
+
+
+  input[type=text], textarea{
+  	width: 100%;
+  	padding: 8px;
+  	border: 1px solid #ccc ;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	resize: vertical;
+  }
+
+  .product-description{
+    margin-top: 20px;
+  }
+
+  input[type=button]{
+  	
+  	border-radius: 15px;
+  	border:1px solid dodgerblue;
+  	padding: 5px 33px 5px 33px;
+
+  }
+
+  label{
+  	padding: 10px 10px 10px 0;
+  	display: inline-block;
+  }
+
+
+  .save-button, .reset-button{
+  	background-color: dodgerblue;
+  	border-radius: 15px;
+  	border:1px solid dodgerblue;
+  	border-radius: 25px;
+  	padding: 8px 30px 8px 30px;	
+  	position: relative;
+  	top: 30px;
+  	margin: 15px;
+
+  }
+
+  .container {
+	margin:auto;
+	width: 500px;
+	height: 780px;
+    position:relative;
+	border-radius: 5px;
+	background-color: #C9DFEC;
+	padding: 20px 20px 30px 20px;
+	font-family: Arial;
+	font-size: 12px;
+	color: black;
+	border-left: 1px solid black;
+  }
+
+ 

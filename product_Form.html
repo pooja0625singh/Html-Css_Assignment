@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  href = "product_Form.css">
+<title> Products </title>
+
+<script type="text/javascript">
+	function show(){
+		alert("Product data saved");
+	}
+</script>
+
+</head>
+<body>
+<div class="container">
+<form>
+
+<div class="product-name">
+<label> PRODUCT NAME </label> <br>
+<input type="text"> <br><br>
+</div>
+
+<div class="unit-of-measurement">
+<label> UNIT OF MEASUREMENT </label> <br>
+<input type="text"> <br><br>
+</div>
+
+<div class="price">
+<label> PRICE </label> <br>
+<input type="text"> <br><br>
+</div>
+
+<div class="product-image">
+<label> PRODUCT IMAGE </label> <br>
+<div class="upload-file">
+<input type="button" value="Upload File" style="color: dodgerblue"> <br><br>
+</div>
+</div>
+
+<div class="product-description">
+<label> PRODUCT DESCRIPTION </label> <br>
+<textarea style="height: 150px"></textarea>
+</div>
+
+<div style="text-align: center">
+<button class="save-button" style="color: white" onclick="show()">Save</button>
+<button class="reset-button" style="color: white">Reset</button>
+</div>
+
+</form>
+</div>
+</body>
+</html>
+ 
